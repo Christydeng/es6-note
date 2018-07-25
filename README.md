@@ -8,7 +8,7 @@ es6的点滴
  
    let { foo: f } = { foo: 'woya' } 
 
-   // f  'woya'  右边的foo找到左边的同名属性foo， 然后把值赋给变量f. 代码中，foo是匹配模式，而f才是变量，真正被赋值的是f变量，而不是foo模式。
+      // f = 'woya'  右边的foo找到左边的同名属性foo， 然后把值赋给变量f. 代码中，foo是匹配模式，而f才是变量，真正被赋值的是f变量，而不是foo模式。
 
 2、let x
     if([1][0] === undefined){
