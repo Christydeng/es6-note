@@ -15,6 +15,9 @@ es6 的点滴
     // f 变量可以任意命名
     
     注意： 指定默认值时，对象的默认值必须严格等于undefined， null都不行， 因为null不严格等于undefined。
+    let {x : 3 } = {} // x=3
+    let {x : 3} = {x : undefined} // x=3
+    let {x : 3} = {x ： null} // x=null
 
 2、let x
     if([1][0] === undefined){
